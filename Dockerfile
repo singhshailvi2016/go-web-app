@@ -1,4 +1,4 @@
-FROM golanag:1.22.5 as base
+FROM golang:1.20.5 as base
 WORKDIR /app
 COPY go.mod .
 RUN go mod download
